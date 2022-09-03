@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test Block</title>
+    <link rel="stylesheet" href="css/bootstrap-reboot.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.min.css">
+</head>
+<body>
+    <div class="wrap">
+        <header class="header">
+            <div class="container">
+                <div class="header__wrap">
+                    <div class="nav">
+                        <ul class="nav__links">
+                            <li class="nav__link nav__link--main"><a href="#">Text</a></li>
+                            <li class="nav__link nav__link--main"><a href="#">Text</a></li>
+                            <li class="nav__link nav__link--main"><a href="#">Text</a></li>
+                        </ul>
+                    </div>
+                    <div class="header__burger">
+                        <a class="nav__btn" href="#">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </a>
+                    </div>
+                </div>
+                <div class="menu">
+                    <div class="menu__block">
+                        <div class="nav">
+                            <div class="nav__links nav__links--burger">
+                                <li class="nav__link nav__link--burger"><a href="#">Text</a></li>
+                                <li class="nav__link nav__link--burger"><a href="#">Text</a></li>
+                                <li class="nav__link nav__link--burger"><a href="#">Text</a></li>
+                                <li class="nav__link nav__link--burger"><a href="#">Text</a></li>
+                            </div>
+                            <a href="#modal"><button class="btn btn--menu">Open pop-up button</button></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <main class="main">
+            <div class="container">
+                <div class="banner">
+                    <div class="slider">
+                        <div class="slider__line">
+                            <div class="slider__item">
+                                <h1 class="slider__title">H1  text</h1>
+                                <a href="#modal"><button class="btn">Open pop-up button</button></a>
+                            </div>
+                            <div class="slider__item">
+                                <h2 class="slider__title">H2  text</h2>
+                                <a href="#modal"><button class="btn">Open pop-up button</button></a>
+                            </div>
+                            <div class="slider__item">
+                                <h3 class="slider__title">H3  text</h3>
+                                <a href="#modal"><button class="btn">Open pop-up button</button></a>
+                            </div>
+                        </div>
+                        <a href="#" class="slider__btn slider__btn--prev"><img src="icons/prev.png" alt="prev"></a>
+                        <a href="#" class="slider__btn slider__btn--next"><img src="icons/next.png" alt="next"></a>
+                    </div>
+                </div>
+
+                <div class="block">
+                    <h2 class="title title--main">H2 text</h2>
+                    <div class="block__wrap">
+                        <div class="block__item"></div>
+                        <div class="block__item"></div>
+                        <div class="block__item"></div>
+                        <div class="block__item"></div>
+                    </div>
+                </div>
+
+                <div class="box">
+                    <div class="title title--main">H2 text</div>
+                    <div class="box__wrap">
+                        <div class="box__item"></div>
+                        <div class="box__item"></div>
+                        <div class="box__item"></div>
+                        <div class="box__item"></div>
+                        <div class="box__item"></div>
+                    </div>
+                </div>
+
+                <div class="down">
+                    <div class="title title--low">Text utp</div>
+                    <a class="btn btn--down" href="#modal">Open pop-up button</a>
+                </div>
+            </div>
+        </main>
+
+        <footer class="footer">
+            <div class="container">
+                <div class="footer__wrap">
+                    <div class="nav nav--footer">
+                        <div class="nav__links nav__links--footer">
+                            <li class="nav__link"><a href="#">Text</a></li>
+                            <li class="nav__link"><a href="#">Text</a></li>
+                            <li class="nav__link"><a href="#">Text</a></li>
+                            <li class="nav__link"><a href="#">Text</a></li>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+        <div class="overlay" id="modal">
+            <div class="popup">
+                <a href="#" class="popup__close">
+                    <img src="icons/X.svg" alt="close">
+                </a>
+                <h2 class="title title--popup">Pop-up</h2>
+            </div>
+        </div>
+    </div>
+    <script src="js/script.js"></script>
+</body>
+</html>

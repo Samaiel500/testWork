@@ -1,0 +1,42 @@
+.banner {
+    padding-top: 40px;
+}
+.slider {
+    position: relative;
+    background: #7029CB;
+    max-width: 100%;
+    height: 176px;
+    overflow: hidden;
+    &__line {
+        display: flex;
+        height: 100%;
+        transition: all 1s;
+    }
+    &__item {
+        display: flex;
+        align-items:center;
+        justify-content: center;
+        width: 100%;
+        flex: 0 0 auto;
+    }
+    &__title {
+        display: inline-block;
+        margin-right: 30px;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 45px;
+        line-height: 45px;
+        color: #FFFFFF;
+    }
+    &__btn {
+        position: absolute;
+        top: 28%;
+        &--next {
+            right: 49px;
+        }
+        &--prev {
+            left: 49px;
+        }
+    }
+}

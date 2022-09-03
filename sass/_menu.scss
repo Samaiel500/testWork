@@ -1,0 +1,34 @@
+.menu {
+    display: none;
+    &:target {
+        display: block;
+    }
+    &__block {
+        z-index: 1;
+        position: absolute;
+        padding: 33px 64px;
+        width: 451px;
+        height: 500px;
+        left: 0px;
+        top: 0px;
+        background-color: #A6C9FF;
+        border: 1px solid #00FF4A;
+    }
+}
+.active {
+    display: block;
+}
+
+.active__btn {
+    :nth-child(1){
+        transform: rotate(30deg);
+        transform-origin: 10px -5px;
+    }
+    :nth-child(2){
+	    display: none;
+    }
+    :nth-child(3){
+        transform: rotate(-30deg);
+        transform-origin: 0px 13px;
+    }
+}

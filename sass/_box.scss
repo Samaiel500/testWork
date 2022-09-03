@@ -1,0 +1,23 @@
+.box {
+    padding: 40px 25px;
+    &__wrap {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 15px;
+        justify-content: space-around;
+        align-items:center;
+        margin: 0 auto;
+        width: 100%;
+        min-height: 248px;
+        background: #D4FF5A;
+        border-radius: 30px;
+    }
+    &__item {
+        width: 12rem;
+        height: 12rem;
+        background: #497957;
+        border: 2px solid #00FF4A;
+        box-shadow: 2px 5px 10px #497957;
+        border-radius: 35px;
+    }
+}

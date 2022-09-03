@@ -1,0 +1,39 @@
+.nav {
+    &--footer {
+        width: 80%;
+    }
+    &__links {
+        display: flex;
+        &--burger {
+           flex-direction: column; 
+        }
+        &--footer {
+            width:100%;
+            justify-content: space-around;
+        }
+    }
+    &__link {
+        a {
+            font-family: 'Roboto';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 28px;
+            line-height: 45px;
+            color: #FFFFFF;
+            transition: all 1s;
+            &:hover {
+                border-bottom: 1px solid #fff;
+            }
+        }
+        &--main {
+            &:not(:last-child) {
+                margin-right: 60px;
+            }
+        }
+        &--burger {
+            &:not(:last-child) {
+                margin-bottom: 50px;
+            }
+        }
+    }
+}
